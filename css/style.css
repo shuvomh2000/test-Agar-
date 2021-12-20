@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+/* 
+--dm: 'DM Sans', sans-serif;
+    --philo: 'Philosopher', sans-serif; */
+
+/* common css end */
+
+
+.test_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.test_left {
+    width: 40%;
+}
+
+.test_left img {
+    max-width: 100%;
+}
+
+.test_right {
+    width: 50%;
+}
+
+.common_heading {
+    margin-top: 60px;
+    margin-left: 90px;
+    width: 500px;
+}
+
+.common_heading h4 {
+    color: #1CB9C8;
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.common_heading h2 {
+    color: #1B212F;
+    font-size: 36px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.common_heading p {
+    color: #505050;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+.review {
+    padding: 30px 20px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    border-left: 2px solid #1CB9C8;
+    position: relative;
+    margin-top: 30px;
+}
+
+.review h3 {
+    color: #1B212F;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.review h5 {
+    color: #505050;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+
+.review p {
+    color: #505050;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 23px;
+    padding-right: 50px;
+    margin-top: 15px;
+}
+
+.review img {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+
+.review_title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_title .star i {
+    color: #e7e7e7;
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.color {
+    color: #fec624 !important;
+}
+
+.test_arrow {
+    position: relative;
+}
+
+.test_arrow i {
+    color: #fff;
+}
+
+.i_ri {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background: rgba(28, 186, 200, 0.2);
+    transition: all linear .3s;
+}
+
+.i_le {
+    position: absolute;
+    bottom: 100px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    background: rgba(28, 186, 200, 0.2);
+    transition: all linear .3s;
+}
+
+.i_le:hover,
+.i_ri:hover {
+    background: #1CB9C8;
+}
+
+/* footer part start */
+
+#footer {
+    padding: 90px 0;
+}
+
+.footer_part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fot_col {
+    width: 40%;
+}
+
+.fot_col p {
+    color: #505050;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 30px;
+    padding-right: 180px;
+}
+
+.social_icon {
+    margin-top: 25px;
+}
+
+.social_icon a {
+    color: #1CB9C8;
+    font-size: 22px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    background: rgba(28, 185, 200, 0.2);
+    margin-right: 15px;
+    transition: all linear .3s;
+}
+
+.social_icon a:hover {
+    color: #fff;
+    background: #1CB9C8;
+}
+
+.fot_col2 {
+    width: 20%;
+}
+
+.fot_col2 h2 {
+    color: #1B212F;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.fot_col2 ul li a {
+    color: #1B212F;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 20px;
+    position: relative;
+}
+
+.fot_col2 ul li a i{
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.fot_col2 ul li{
+    margin-bottom: 20px;
+}
+
+.fo_li{
+    color: #1CB9C8;
+}
+
+/* footer part end */
